@@ -1,5 +1,5 @@
 .body {
-	margin: 5px 50px 5px 50px;
+	/*margin: 5px 50px 5px 50px;*/
 }
 
 .navbar {
@@ -10,15 +10,15 @@
 
 .sidenav {
 	height: 100%;
-	width: 285px;
+	width: 235px;
 	z-index: 1;
 	margin-left: 15px;
 	top: 0;
 }
 
 .mainbody {
-	margin-left: 300px;
+	margin-left: 250px;
 	position: absolute;
-	top: 105px;
+	top: 100px;
 	/*margin-right: 25px;*/
 }
