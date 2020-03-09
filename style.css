@@ -1,3 +1,7 @@
+.body {
+	margin: 5px 50px 5px 50px;
+}
+
 .navbar {
 	height: 100px;
 	width: 100%;
@@ -12,7 +16,7 @@
 	top: 0;
 }
 
-.body {
+.mainbody {
 	/*margin-left: 250px;*/
 	margin-left: 250px;
 	position: absolute;
