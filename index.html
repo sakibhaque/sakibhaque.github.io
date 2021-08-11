@@ -1,14 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<meta name="keywords" content="Sakib, Haque, Sakib Haque">
 	<meta name="description" content="Personal website of Sakib Haque">
 	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
 	<meta http-equiv="refresh" content="0; URL=https://www.sakibhaque.com/" />
+	<script>
+      $(document).ready(function () {
+          // Hide the div
+          $("#mainbody").hide();
+          // Show the div after 5s
+          // $("#div1").delay(5000).fadeIn(100);  
+      });    
+  </script>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<title>Sakib Haque</title>
 </head>
-<body class="body">
+<body id="mainbody" class="body">
 	<div class="navbar">
 		<h1>Sakib Haque</h1>
 		<hr>
